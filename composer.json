@@ -4,7 +4,7 @@
     "description": "Caching wrapper for objects",
     "license": "MIT",
     "require": {
-        "php": "^7",
+        "php": "^7.1",
         "psr/cache": "^1.0",
         "ext-json": "*"
     },
