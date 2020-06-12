@@ -1,0 +1,19 @@
+{
+    "name": "gsom1/cache-gateway",
+    "type": "library",
+    "description": "Caching wrapper for objects",
+    "license": "MIT",
+    "require": {
+        "php": "^7",
+        "psr/cache": "^1.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gsom1\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5"
+    }
+}
